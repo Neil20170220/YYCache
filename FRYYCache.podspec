@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'YYCache'
+  s.name         = 'FRYYCache'
   s.summary      = 'High performance cache framework for iOS.'
   s.version      = '1.0.6'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/ibireme/YYCache'
   s.platform     = :ios, '6.0'
   s.ios.deployment_target = '6.0'
-  s.source       = { :git => 'https://github.com/ibireme/YYCache.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/Neil20170220/YYCache.git', :tag => s.version.to_s }
   
   s.requires_arc = true
   s.source_files = 'YYCache/*.{h,m}'
